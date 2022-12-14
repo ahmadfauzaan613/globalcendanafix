@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  background-color: #f0f0f0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fbfbfb;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.hero {
+  background-image: url('./Assets/Hero.png');
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+}
+
+.hero2 {
+  background-image: url('./Assets/Hero.png');
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* .slowmo {
+  transform-origin: 50% 65%;
+  transition: transform 2s, filter 2s ease-in-out;
+}
+
+.slowmo:hover{
+  transform: scale(1.03);
+} */
+
+.photo {
+  overflow: hidden;
+}
+
+.poto {
+  transition: transform 0.25s;
+}
+
+.photo:hover .poto {
+  transform: scale(1.2);
+}
+
+.photo2 {
+  overflow: hidden;
+}
+
+.poto2 {
+  transition: transform 0.25s;
+}
+
+.photo2:hover .poto2 {
+  transform: scale(1.06);
+}
+
