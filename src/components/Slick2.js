@@ -1,10 +1,6 @@
 import React, { Component } from 'react'
 import Slider from 'react-slick'
-import kelapa1 from '../Assets/pexels-photo-7248417.png'
-import kelapa2 from '../Assets/7796259596-klasfikasidanmorfologitanamankelapa.png'
-import kelapa3 from '../Assets/pexels-photo-7248417.png'
-import kelapa4 from '../Assets/pexels-photo-7248417.png'
-import Card from './Card'
+import Kelapa1 from '../Assets/photo-1603779046675-2eccbab9b982.jpg'
 
 export default class SimpleSlider extends Component {
   render() {
@@ -46,19 +42,15 @@ export default class SimpleSlider extends Component {
       <div className="py-[24px]">
         <Slider {...settings}>
           <div className="pr-2 photo2">
-            <img src={kelapa1} alt="" className="relative w-full h-full" />
-            <div className="bg-white w-full absolute mt-[-20px] mx-[20px] p-[10px]">
-              <p>dsada</p>
+            <div className="">
+              <img src={Kelapa1} alt="" className="w-full h-[400px]" />
             </div>
-          </div>
-          <div className="pr-2 photo2">
-            <Card img={kelapa2} judul={'1'} judul2={'2'} />
-          </div>
-          <div className="pr-2 photo2">
-            <Card img={kelapa3} judul={'1'} judul2={'2'} />
-          </div>
-          <div className="pr-2 photo2">
-            <Card img={kelapa4} judul={'1'} judul2={'2'} />
+            <div className="">
+              <img src={Kelapa1} alt="" className="w-full h-[400px]" />
+            </div>
+            <div className="">
+              <img src={Kelapa1} alt="" className="w-full h-[400px]" />
+            </div>
           </div>
         </Slider>
       </div>

@@ -24,8 +24,8 @@ function Home() {
       <Team />
       <Location />
       <Footer />
-      <div className='absolute bottom-4 right-6 cursor-pointer'>
-        <img src={Whatsapp} alt='' className='w-[2vw] h-full' />
+      <div className="absolute bottom-4 desktop3:right-6 desktop2:right-6 desktop:right-4 phone:right-4 tablet:right-4 laptop:right-4 cursor-pointer">
+        <img src={Whatsapp} alt="" className="desktop3:w-[2vw] desktop2:w-[4vw] desktop:w-[4vw] phone:w-[9vw] tablet:w-[5vw] laptop:w-[4vw] h-full" />
       </div>
     </div>
   )

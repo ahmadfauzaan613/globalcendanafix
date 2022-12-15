@@ -1,7 +1,7 @@
 import React from 'react'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-import Slick from './Slick'
+import Slick2 from './Slick'
 
 function Article() {
   return (
@@ -12,7 +12,7 @@ function Article() {
           Sed ut perspiciatis aperiam unde omnis istetus error <br /> volupta dolorem que laudantium, totam rem.
         </p>
         <div>
-          <Slick />
+          <Slick2 />
         </div>
       </div>
     </div>
