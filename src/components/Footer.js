@@ -2,6 +2,10 @@ import React from "react";
 import Logo from "../Assets/Logo.png";
 import call from "../Assets/call.png";
 import insta from "../Assets/instagram.png";
+import youtube from "../Assets/youtube.png";
+import linkedin from "../Assets/linkedin.png";
+import facebook from "../Assets/facebook.png";
+
 function Footer() {
   return (
     <div className="desktop3:pt-[60px] desktop2:pt-[60px] desktop:pt-[60px] laptop:pt-[60px]  phone:py-[20px] tablet:py-[20px] pb-[20px] desktop3:px-[16rem] desktop:px-[1rem] laptop:px-[1rem] phone:px-[10px] tablet:px-[10px]">
@@ -47,16 +51,24 @@ function Footer() {
         <div className="phone:py-[20px] tablet:py-[20px] laptop:py-[20px]">
           <p className="text-[20px] text-[#262626] font-[400]">Social Media</p>
           <div className="pt-[10px] flex items-center space-x-2">
+            <a target="_blank"  href="https://instagram.com/globalcendanaekspor?igshid=Nzg3NjI1NGI=">
             <img src={insta} className="w-[32px] h-full" alt="" />
-            <img src={insta} className="w-[32px] h-full" alt="" />
-            <img src={insta} className="w-[32px] h-full" alt="" />
+            </a>
+            <a target="_blank"  href="https://youtube.com/@globalcendanaekspor">
+            <img src={youtube} className="w-[32px] h-full" alt="" />
+            </a>
+            <a target="_blank"  href="http://linkedin.com/in/pt-global-cendana-ekspor-90970825a">
+            <img src={linkedin} className="w-[32px] h-full" alt="" />
+            </a>
+            <a target="_blank"  href="https://www.facebook.com/profile.php?id=100088289067795&mibextid=LQQJ4d">
+            <img src={facebook} className="w-[32px] h-full" alt="" />
+            </a>
           </div>
         </div>
         <div className="phone:py-[20px] tablet:py-[20px] laptop:py-[20px]">
           <p className="text-[20px] text-[#262626] font-[400]">Address</p>
           <p className="pt-[8px] text-[16px] text-[#717070] font-light">
-            Jl. Indonesia Raya, Sudirman, Jakarta <br /> Selatan, DKI Jakarta,
-            Indonesia, 10150
+          JL.BUKIT PASIR NO.02 tenayan raya, <br /> kota pekanbaru, riau
           </p>
         </div>
       </div>
