@@ -8,7 +8,7 @@ import { Fade } from 'react-reveal'
 
 function Product() {
   return (
-    <div className="py-[60px] desktop3:px-[16rem] desktop2:px-[1rem] desktop:px-[1rem]  laptop:px-[1rem]">
+    <div id='product' className="py-[60px] desktop3:px-[16rem] desktop2:px-[1rem] desktop:px-[1rem]  laptop:px-[1rem]">
       <Fade bottom>
         <p className="text-center desktop3:text-[36px] desktop2:text-[36px] desktop:text-[36px] laptop:text-[36px] phone:text-[28px] tablet:text-[28px] font-medium">Our Products</p>
         <p className="text-center pt-[8px] text-[16px] phone:px-[10px] tablet:px-[10px] text-[#0000009c]">

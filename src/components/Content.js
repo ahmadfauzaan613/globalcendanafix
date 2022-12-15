@@ -5,7 +5,7 @@ import kelapa2 from '../Assets/278700837.jpeg'
 
 function Content() {
   return (
-    <div className="desktop3:px-[16rem] desktop3:py-[60px] desktop2:px-[1rem] desktop2:py-[60px] desktop:px-[1rem] desktop:py-[60px] phone:p-[1rem] tablet:p-[1rem] laptop:p-[1rem]">
+    <div id='about' className="desktop3:px-[16rem] desktop3:py-[60px] desktop2:px-[1rem] desktop2:py-[60px] desktop:px-[1rem] desktop:py-[60px] phone:p-[1rem] tablet:p-[1rem] laptop:p-[1rem]">
       <Fade bottom>
         <p className="text-[38px] font-light text-[#262626]">
           If you want to be happy <br /> for a lifetime, <span className="font-bold">plant coconut.</span>

@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade'
 import img from '../Assets/img.jpeg'
 function Location() {
   return (
-    <div className="desktop3:mt-[48px] desktop2:mt-[48px] desktop:mt-[48px] grid desktop3:grid-cols-2 desktop2:grid-cols-2 desktop:grid-cols-2  laptop:grid-cols-2 ">
+    <div id='contact' className="desktop3:mt-[48px] desktop2:mt-[48px] desktop:mt-[48px] grid desktop3:grid-cols-2 desktop2:grid-cols-2 desktop:grid-cols-2  laptop:grid-cols-2 ">
       <Fade left>
         <div className="col-span-1">
           <img src={img} alt="" className="w-full h-full" />

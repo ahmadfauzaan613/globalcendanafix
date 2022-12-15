@@ -4,7 +4,7 @@ import CountUp from 'react-countup'
 
 function Number() {
   return (
-    <div className="desktop3:py-[60px] desktop2:py-[60px] desktop:py-[60px] laptop:py-[30px] phone:py-[30px]  tablet:py-[30px] bg-[#faf8f7] ">
+    <div id='gallery' className="desktop3:py-[60px] desktop2:py-[60px] desktop:py-[60px] laptop:py-[30px] phone:py-[30px]  tablet:py-[30px] bg-[#faf8f7] ">
       <div className="laptop:px-[8rem] laptop:flex laptop:items-center laptop:justify-around  desktop3:px-[16rem] desktop3:flex desktop3:items-center desktop3:justify-around  desktop:px-[1rem] desktop:flex desktop:items-center desktop:justify-around desktop2:px-[1rem] desktop2:flex desktop2:items-center desktop2:justify-around">
         <Zoom>
           <div className="phone:border-b phone:pb-[10px] tablet:border-b tablet:pb-[10px] ">
