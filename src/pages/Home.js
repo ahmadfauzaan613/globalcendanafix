@@ -25,6 +25,7 @@ function Home() {
 
       <a
         target="_blank"
+        rel="noopener noreferrer"
         href="https://api.whatsapp.com/send?phone=6285217713066"
         className="absolute bottom-4 desktop3:right-6 desktop2:right-6 desktop:right-4 phone:right-4 tablet:right-4 laptop:right-4 cursor-pointer"
       >
